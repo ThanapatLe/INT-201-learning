@@ -130,3 +130,4 @@ let newPoint = point;
 console.log(point); //{ x: 10, y: 20 }
 newPoint.x = 30;
 console.log(point); //{x:30, y:20);
+

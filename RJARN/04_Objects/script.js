@@ -167,24 +167,24 @@ let p1 = player("a","b");
 console.log(player.name());
 
 //Pee
-// function player(firstName, lastName) {
-//   let fname;
+function player(firstName, lastName) {
+  let fname;
 
-//   let lname;
+  let lname;
 
-//   if (fname) {
-//     fname = firstName;
-//   } else {
-//     fname = "unknown";
-//   }
+  if (fname) {
+    fname = firstName;
+  } else {
+    fname = "unknown";
+  }
 
-//   if (lname) {
-//     lname = lastName;
-//   } else {
-//     lname = "unknown";
-//   }
+  if (lname) {
+    lname = lastName;
+  } else {
+    lname = "unknown";
+  }
 
-//   return `${fname} ${lname}`;
-// }
+  return `${fname} ${lname}`;
+}
 
-// console.log(player());
+console.log(player());

@@ -16,3 +16,4 @@ let y = 4;
 [x, y] = [y, x];
 console.log(x);
 console.log(y);
+

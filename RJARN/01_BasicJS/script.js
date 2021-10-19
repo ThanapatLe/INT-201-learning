@@ -13,7 +13,7 @@ console.log('Num is ' + Num);
 if (num == 5) {
   console.log(num + ' equal to 5.');
 } else {
-  console.log(num + 'is not equal to 5.');
+  console.log(num + ' is not equal to 5.');
 }
 
 let myNum = 0;
@@ -54,3 +54,19 @@ let myObj = [
 console.log(`${JSON.stringify(myObj)}`);
 //The JSON.stringify() method converts a JavaScript object or value to a JSON string
 console.log(`type of myObj is ${typeof myObj}`);
+
+
+
+console.log(typeof Num); //ชนิดของตัวแปร 
+console.log(`${num}`); 
+
+let year = 365;
+console.log(year);
+
+year = 364;
+console.log(year); //ทำได้เนื่องจากไม่เป็นการสร้างทับหรือ not re-declared
+
+let year = 364;
+console.log(year);//ทำไม่ได้เนื่องจากเป็นการสร้างทับ หรือ re-declared
+
+console.log(typeof`9`);

@@ -61,6 +61,7 @@ let data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 let sum = 0;
 
 for (let item of data) {
-  sum += item;
+  console.log(item);
 }
 console.log(`sum = ${sum}`);
+

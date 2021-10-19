@@ -4,12 +4,14 @@
 // console.log(`Frontend Framework: ${lib.frontEndFramework}`);
 // console.log(lib.greeting());
 
-import defaultExport, {
-  greeting,
-  frontEndFramework as frontEnd
-} from './dataFuncExport.js';
+// import defaultExport, {
+//   greeting,
+//   frontEndFramework as frontEnd
+// } from './dataFuncExport.js';
 import { subject } from './subjectExport.js';
-console.log(`Frontend Framework: ${frontEnd}`);
-console.log(greeting());
-console.log(defaultExport);
-console.log(subject);
+
+document.getElementById("aone").innerHTML = subject();
+// console.log(`Frontend Framework: ${frontEnd}`);
+// console.log(greeting());
+// console.log(defaultExport);
+// console.log(subject);

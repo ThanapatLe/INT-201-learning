@@ -6,11 +6,11 @@ function add(n1, n2) {
 }
 let sum = add;
 
-let addResult1 = add(10, 20);
+let addResult1 = add(10, 20 ,30);
 let addResult2 = sum(10, 20);
 console.log(`add result1: ${addResult1}`);
 console.log(`add result2: ${addResult2}`);
-
+console.log(addResult1);
 //2. returned as a value from another function
 function operator(n1, n2, fn) {
   return fn(n1, n2);
@@ -30,3 +30,4 @@ console.log(`multiply result: ${multiplyResult}`);
 // }
 // let avgResult = average(10, 20, add)
 // console.log(`avg result: ${avgResult}`)
+

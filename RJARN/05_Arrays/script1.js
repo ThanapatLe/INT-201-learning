@@ -13,7 +13,7 @@ let students = [
   { id: 3, name: 'Mary' }
 ];
 console.log(students);
-
+console.log(students[2].id.shift());
 //array of arrays
 let colors = [
   ['pink', 'red'],
